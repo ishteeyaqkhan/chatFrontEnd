@@ -1,0 +1,55 @@
+.col-1 {
+    height: 100vh;
+    background-color: blue;
+}
+
+.sideBarChat {
+    color: white;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+.sideBarChat div {
+    border-bottom: 1px solid;
+
+}
+
+.selected {
+    background: #6363cb;
+    padding: 6px;
+
+}
+
+.chat-header {}
+
+.chat-left {
+    background-color: blue;
+    width: 175px;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.chat-right {
+    background: gainsboro;
+    width: 175px;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    /* position: absolute; */
+    /* right: 0; */
+    margin-bottom: 2px;
+}
+
+.chat-seen {
+    background-color: #b7a88e;
+}
+.message-send{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.message-send input {
+    width: 50%;
+}
